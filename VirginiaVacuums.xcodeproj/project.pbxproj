@@ -79,12 +79,9 @@
 		1085E8E01B9BA93400CDE9B0 /* VirginiaVacuums */ = {
 			isa = PBXGroup;
 			children = (
-				1085E8E31B9BA93400CDE9B0 /* AppDelegate.swift */,
-				1085E8E81B9BA93400CDE9B0 /* ViewController.swift */,
-				1085E8EA1B9BA93400CDE9B0 /* Main.storyboard */,
-				1085E8ED1B9BA93400CDE9B0 /* Images.xcassets */,
-				1085E8EF1B9BA93400CDE9B0 /* LaunchScreen.xib */,
-				1085E8E51B9BA93400CDE9B0 /* VirginiaVacuums.xcdatamodeld */,
+				1085E9081B9BB33C00CDE9B0 /* Lib */,
+				1085E9071B9BB33600CDE9B0 /* Controllers */,
+				1085E9061B9BB32700CDE9B0 /* Views */,
 				1085E8E11B9BA93400CDE9B0 /* Supporting Files */,
 			);
 			path = VirginiaVacuums;
@@ -93,7 +90,10 @@
 		1085E8E11B9BA93400CDE9B0 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				1085E8E31B9BA93400CDE9B0 /* AppDelegate.swift */,
 				1085E8E21B9BA93400CDE9B0 /* Info.plist */,
+				1085E8ED1B9BA93400CDE9B0 /* Images.xcassets */,
+				1085E8E51B9BA93400CDE9B0 /* VirginiaVacuums.xcdatamodeld */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -113,6 +113,30 @@
 				1085E8FB1B9BA93400CDE9B0 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1085E9061B9BB32700CDE9B0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1085E8EF1B9BA93400CDE9B0 /* LaunchScreen.xib */,
+				1085E8EA1B9BA93400CDE9B0 /* Main.storyboard */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		1085E9071B9BB33600CDE9B0 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				1085E8E81B9BA93400CDE9B0 /* ViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		1085E9081B9BB33C00CDE9B0 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Lib;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -164,6 +188,7 @@
 				TargetAttributes = {
 					1085E8DD1B9BA93400CDE9B0 = {
 						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = B59S6WSQJH;
 					};
 					1085E8F51B9BA93400CDE9B0 = {
 						CreatedOnToolsVersion = 6.4;
@@ -346,6 +371,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = VirginiaVacuums/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -356,6 +382,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = VirginiaVacuums/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
