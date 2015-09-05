@@ -1,0 +1,443 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1085E8E41B9BA93400CDE9B0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1085E8E31B9BA93400CDE9B0 /* AppDelegate.swift */; };
+		1085E8E71B9BA93400CDE9B0 /* VirginiaVacuums.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1085E8E51B9BA93400CDE9B0 /* VirginiaVacuums.xcdatamodeld */; };
+		1085E8E91B9BA93400CDE9B0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1085E8E81B9BA93400CDE9B0 /* ViewController.swift */; };
+		1085E8EC1B9BA93400CDE9B0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1085E8EA1B9BA93400CDE9B0 /* Main.storyboard */; };
+		1085E8EE1B9BA93400CDE9B0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1085E8ED1B9BA93400CDE9B0 /* Images.xcassets */; };
+		1085E8F11B9BA93400CDE9B0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1085E8EF1B9BA93400CDE9B0 /* LaunchScreen.xib */; };
+		1085E8FD1B9BA93400CDE9B0 /* VirginiaVacuumsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1085E8FC1B9BA93400CDE9B0 /* VirginiaVacuumsTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1085E8F71B9BA93400CDE9B0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1085E8D61B9BA93400CDE9B0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1085E8DD1B9BA93400CDE9B0;
+			remoteInfo = VirginiaVacuums;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1085E8DE1B9BA93400CDE9B0 /* VirginiaVacuums.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VirginiaVacuums.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1085E8E21B9BA93400CDE9B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1085E8E31B9BA93400CDE9B0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1085E8E61B9BA93400CDE9B0 /* VirginiaVacuums.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = VirginiaVacuums.xcdatamodel; sourceTree = "<group>"; };
+		1085E8E81B9BA93400CDE9B0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1085E8EB1B9BA93400CDE9B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1085E8ED1B9BA93400CDE9B0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1085E8F01B9BA93400CDE9B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		1085E8F61B9BA93400CDE9B0 /* VirginiaVacuumsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VirginiaVacuumsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1085E8FB1B9BA93400CDE9B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1085E8FC1B9BA93400CDE9B0 /* VirginiaVacuumsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VirginiaVacuumsTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1085E8DB1B9BA93400CDE9B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1085E8F31B9BA93400CDE9B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1085E8D51B9BA93400CDE9B0 = {
+			isa = PBXGroup;
+			children = (
+				1085E8E01B9BA93400CDE9B0 /* VirginiaVacuums */,
+				1085E8F91B9BA93400CDE9B0 /* VirginiaVacuumsTests */,
+				1085E8DF1B9BA93400CDE9B0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1085E8DF1B9BA93400CDE9B0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1085E8DE1B9BA93400CDE9B0 /* VirginiaVacuums.app */,
+				1085E8F61B9BA93400CDE9B0 /* VirginiaVacuumsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1085E8E01B9BA93400CDE9B0 /* VirginiaVacuums */ = {
+			isa = PBXGroup;
+			children = (
+				1085E8E31B9BA93400CDE9B0 /* AppDelegate.swift */,
+				1085E8E81B9BA93400CDE9B0 /* ViewController.swift */,
+				1085E8EA1B9BA93400CDE9B0 /* Main.storyboard */,
+				1085E8ED1B9BA93400CDE9B0 /* Images.xcassets */,
+				1085E8EF1B9BA93400CDE9B0 /* LaunchScreen.xib */,
+				1085E8E51B9BA93400CDE9B0 /* VirginiaVacuums.xcdatamodeld */,
+				1085E8E11B9BA93400CDE9B0 /* Supporting Files */,
+			);
+			path = VirginiaVacuums;
+			sourceTree = "<group>";
+		};
+		1085E8E11B9BA93400CDE9B0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1085E8E21B9BA93400CDE9B0 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1085E8F91B9BA93400CDE9B0 /* VirginiaVacuumsTests */ = {
+			isa = PBXGroup;
+			children = (
+				1085E8FC1B9BA93400CDE9B0 /* VirginiaVacuumsTests.swift */,
+				1085E8FA1B9BA93400CDE9B0 /* Supporting Files */,
+			);
+			path = VirginiaVacuumsTests;
+			sourceTree = "<group>";
+		};
+		1085E8FA1B9BA93400CDE9B0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1085E8FB1B9BA93400CDE9B0 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1085E8DD1B9BA93400CDE9B0 /* VirginiaVacuums */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1085E9001B9BA93400CDE9B0 /* Build configuration list for PBXNativeTarget "VirginiaVacuums" */;
+			buildPhases = (
+				1085E8DA1B9BA93400CDE9B0 /* Sources */,
+				1085E8DB1B9BA93400CDE9B0 /* Frameworks */,
+				1085E8DC1B9BA93400CDE9B0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VirginiaVacuums;
+			productName = VirginiaVacuums;
+			productReference = 1085E8DE1B9BA93400CDE9B0 /* VirginiaVacuums.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1085E8F51B9BA93400CDE9B0 /* VirginiaVacuumsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1085E9031B9BA93400CDE9B0 /* Build configuration list for PBXNativeTarget "VirginiaVacuumsTests" */;
+			buildPhases = (
+				1085E8F21B9BA93400CDE9B0 /* Sources */,
+				1085E8F31B9BA93400CDE9B0 /* Frameworks */,
+				1085E8F41B9BA93400CDE9B0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1085E8F81B9BA93400CDE9B0 /* PBXTargetDependency */,
+			);
+			name = VirginiaVacuumsTests;
+			productName = VirginiaVacuumsTests;
+			productReference = 1085E8F61B9BA93400CDE9B0 /* VirginiaVacuumsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1085E8D61B9BA93400CDE9B0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "HARPREET SINGH";
+				TargetAttributes = {
+					1085E8DD1B9BA93400CDE9B0 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					1085E8F51B9BA93400CDE9B0 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 1085E8DD1B9BA93400CDE9B0;
+					};
+				};
+			};
+			buildConfigurationList = 1085E8D91B9BA93400CDE9B0 /* Build configuration list for PBXProject "VirginiaVacuums" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1085E8D51B9BA93400CDE9B0;
+			productRefGroup = 1085E8DF1B9BA93400CDE9B0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1085E8DD1B9BA93400CDE9B0 /* VirginiaVacuums */,
+				1085E8F51B9BA93400CDE9B0 /* VirginiaVacuumsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1085E8DC1B9BA93400CDE9B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1085E8EC1B9BA93400CDE9B0 /* Main.storyboard in Resources */,
+				1085E8F11B9BA93400CDE9B0 /* LaunchScreen.xib in Resources */,
+				1085E8EE1B9BA93400CDE9B0 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1085E8F41B9BA93400CDE9B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1085E8DA1B9BA93400CDE9B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1085E8E91B9BA93400CDE9B0 /* ViewController.swift in Sources */,
+				1085E8E41B9BA93400CDE9B0 /* AppDelegate.swift in Sources */,
+				1085E8E71B9BA93400CDE9B0 /* VirginiaVacuums.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1085E8F21B9BA93400CDE9B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1085E8FD1B9BA93400CDE9B0 /* VirginiaVacuumsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1085E8F81B9BA93400CDE9B0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1085E8DD1B9BA93400CDE9B0 /* VirginiaVacuums */;
+			targetProxy = 1085E8F71B9BA93400CDE9B0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1085E8EA1B9BA93400CDE9B0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1085E8EB1B9BA93400CDE9B0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1085E8EF1B9BA93400CDE9B0 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1085E8F01B9BA93400CDE9B0 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1085E8FE1B9BA93400CDE9B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1085E8FF1B9BA93400CDE9B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1085E9011B9BA93400CDE9B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = VirginiaVacuums/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1085E9021B9BA93400CDE9B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = VirginiaVacuums/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1085E9041B9BA93400CDE9B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = VirginiaVacuumsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VirginiaVacuums.app/VirginiaVacuums";
+			};
+			name = Debug;
+		};
+		1085E9051B9BA93400CDE9B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = VirginiaVacuumsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VirginiaVacuums.app/VirginiaVacuums";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1085E8D91B9BA93400CDE9B0 /* Build configuration list for PBXProject "VirginiaVacuums" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1085E8FE1B9BA93400CDE9B0 /* Debug */,
+				1085E8FF1B9BA93400CDE9B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1085E9001B9BA93400CDE9B0 /* Build configuration list for PBXNativeTarget "VirginiaVacuums" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1085E9011B9BA93400CDE9B0 /* Debug */,
+				1085E9021B9BA93400CDE9B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1085E9031B9BA93400CDE9B0 /* Build configuration list for PBXNativeTarget "VirginiaVacuumsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1085E9041B9BA93400CDE9B0 /* Debug */,
+				1085E9051B9BA93400CDE9B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		1085E8E51B9BA93400CDE9B0 /* VirginiaVacuums.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				1085E8E61B9BA93400CDE9B0 /* VirginiaVacuums.xcdatamodel */,
+			);
+			currentVersion = 1085E8E61B9BA93400CDE9B0 /* VirginiaVacuums.xcdatamodel */;
+			path = VirginiaVacuums.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 1085E8D61B9BA93400CDE9B0 /* Project object */;
+}
