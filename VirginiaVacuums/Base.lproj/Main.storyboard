@@ -46,8 +46,8 @@
                                                             <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
-                                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="mlR-bQ-wAU" userLabel="CellImg">
-                                                            <rect key="frame" x="70" y="20" width="90" height="50"/>
+                                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Image" translatesAutoresizingMaskIntoConstraints="NO" id="mlR-bQ-wAU" userLabel="CellImg">
+                                                            <rect key="frame" x="70" y="20" width="59" height="54"/>
                                                         </imageView>
                                                     </subviews>
                                                 </tableViewCellContentView>
@@ -76,4 +76,7 @@
             </objects>
         </scene>
     </scenes>
+    <resources>
+        <image name="Image" width="18" height="18"/>
+    </resources>
 </document>
